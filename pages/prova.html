@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <link rel="stylesheet" href="../css/message.css">
+</head>
+
+<body>
+
+    <div>
+        <a href="../index.html" class="voltar">&#8592;</a>
+        <h1>Prova Surpresa</h1>
+    </div>
+
+    <button class="btnSurprise" onclick="mostrarMensagem()">
+        Clique Aqui
+    </button>
+
+    <div class="mensagem" id="mensagem">
+
+        <div class="cartao">
+
+            <button class="fechar" onclick="fecharMensagem()">×</button>
+
+            <h2>🎂 Feliz Aniversário!</h2>
+
+            <p>
+                Hoje é um dia muito especial!
+                Que sua vida seja repleta de alegria,
+                saúde, amor e muitas conquistas.
+            </p>
+
+            <p>
+                Você merece tudo de melhor!
+            </p>
+
+            <h3>❤️ Com carinho!</h3>
+
+        </div>
+
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").style.display = "flex";
+        }
+
+        function fecharMensagem() {
+            document.getElementById("mensagem").style.display = "none";
+        }
+
+    </script>
+
+</body>
+
+</html>

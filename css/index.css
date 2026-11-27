@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #ccc;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btns button {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
